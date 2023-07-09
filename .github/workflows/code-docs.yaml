@@ -1,0 +1,10 @@
+name: Generate Code Documents
+run-name: Generate Code Documents
+on: [workflow_dispatch]
+
+jobs:
+  gen-ai-doc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Knowl Code Docs
+        uses: knowl-doc/knowl-ai-code-docs@v0.1
